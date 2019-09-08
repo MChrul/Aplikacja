@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/receipt_menu_buyer_data"
+        android:title="@string/dodaj_dane_kupujacego" />
+    <item
+        android:id="@+id/receipt_menu_receipt_data"
+        android:title="@string/dane_rachunku" />
+    <item
+        android:id="@+id/receipt_menu_add_item"
+        android:title="@string/dodaj_pozycj_string_pozycje_dokumentu" />
+    <item
+        android:id="@+id/receipt_menu_print_to_pdf"
+        android:title="@string/generuj_pdf" />
+</menu>

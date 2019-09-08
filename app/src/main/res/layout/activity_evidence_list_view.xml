@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".EvidenceListView">
+
+        <TextView
+            android:id="@+id/evidence_lv_nr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Lp." />
+
+        <TextView
+            android:id="@+id/evidence_lv_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.255"
+            android:text="2018-11-12" />
+
+        <TextView
+            android:id="@+id/evidence_lv_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.225"
+            android:gravity="end"
+            android:text="95.00" />
+
+        <TextView
+            android:id="@+id/evidence_lv_year_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.225"
+            android:gravity="end"
+            android:text="3950.00" />
+
+    <TextView
+        android:id="@+id/evidence_lv_annotation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.225"
+        android:gravity="end"
+        android:text="rachunek" />
+
+</LinearLayout>
